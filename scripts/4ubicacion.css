@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     backdrop-filter: blur(5px);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 40dvh;
+    background-image: url(../videosimagensyaudiso/ladrillos.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.nav-bar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-bar__color{
+    padding: 20px;
+    background-color: rgb(232, 172, 67);
+    width: 100px;
+    height: 100px;
+}
+
+.nav-bar h1{
+    border-radius: 0px 0px 30px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -2px;
+}
+
+.nav-bar div{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(232, 172, 67);
+    width: 100%;
+    position: relative;
+    inset-block-end: 24px;
+}
+
+.nav-bar__refer{
+    margin: 30px;
+    text-decoration: none;
+    background-color: brown;
+    color: rgb(241, 241, 213);
+    padding: 15px;
+    border: solid;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+.nav-bar__refer:hover{
+    background-color: rgb(84, 61, 32);
+    font-size: 30px;
+}
+
+.nav-bar__refer--color{
+    background-color: rgb(84, 61, 32);
+    font-size: 30px;
+}
+
+
+.logoss{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 4%;
+    align-items: center;
+}
+
+.logoss__img{
+    border: 10px solid black;
+    border-radius: 50% 50% 50% 50%;
+    
+}
+
+.logoss__tex{
+    background-color: brown;
+    border: 5px solid;
+    border-radius: 5%;
+    padding: 20%;
+    color: rgb(241, 241, 213);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto;
+    color: aliceblue;
+    background-color: rgb(45, 18, 70);
+    padding: 90px;
+    margin-top: auto;
+    font-size: 20px;
+}
+
+.foo_ter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.foo_ter-list{
+    padding: 25px;
+}
+
+.foo_ter-list li{
+    margin: 10px;
+}
+
+
+
+@media (max-width: 776px){
+
+    body{
+        display: grid;
+        min-height: 40dvh;
+        background-repeat: no-repeat;
+        background-size: 1600px;
+    }
+    .nav-bar{
+        background: none;
+        display: grid;
+        grid-template-columns:  auto auto ;
+        background-color: rgb(232, 172, 67); 
+        height: 83px;
+        width: 100%;
+    }
+    .nav-bar__color{
+        display: flex;
+        font-size: 10px;
+        background: none;
+    }
+    
+    .nav-bar__refer--color{
+        background-color: rgb(84, 61, 32);
+        font-size: 15px;
+    }
+    
+    .nav-bar img{
+        width: 30px;
+        height: 30px;
+        margin: 4px;
+        position: relative;
+        left: 80px;
+        top: -13px;
+    }
+    .nav-bar h1{
+        padding: 0%;
+        margin: 0%;
+        width: 120px;
+        height: 2px;
+        position: relative;
+        top: -20px;
+        left: -90px;
+    }
+    
+    .nav-bar div{
+        background: none;
+        border: solid 2px;
+        padding: 58px;
+        margin: 0%;
+        padding-top: 2%;
+        padding-bottom: 4px;
+        position: relative;
+        left: 0px;
+    }
+
+    .nav-bar__refer{
+        margin: 0px;
+        text-decoration: none;
+        padding: 2px;
+    }
+
+    .logoss{
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+    .logoss__img{
+        margin: 45px;
+    }
+
+    .foo_ter-list{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 1023px)  {
+    body{
+        display: grid;
+        min-height: 40dvh;
+        background-repeat: no-repeat;
+        background-size: 1600px;
+    }
+
+    .nav-bar__refer{
+        margin: 10px;
+    }
+
+    
+}
